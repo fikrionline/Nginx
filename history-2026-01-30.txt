@@ -1,0 +1,276 @@
+    1  apt update -y
+    2  apt upgrade -y
+    3  htop
+    4  apt install htop -y
+    5  htop
+    6  apt install nginx
+    7  nginx -v
+    8  apt remove nginx
+    9  lsb_release -a
+   10  apt install curl gnupg2 ca-certificates lsb-release ubuntu-keyring -y
+   11  curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor | sudo tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null
+   12  gpg --dry-run --quiet --no-keyring --import --import-options import-show /usr/share/keyrings/nginx-archive-keyring.gpg
+   13  apt update -y
+   14  apt install nginx
+   15  nginx -v
+   16  apt remove nginx
+   17  echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/ubuntu `lsb_release -cs` nginx" | sudo tee /etc/apt/sources.list.d/nginx.list
+   18  sudo apt update
+   19  sudo add-apt-repository --remove ppa:nginx/stable
+   20  add-apt-repository --remove ppa:nginx/stable
+   21  cd /etc/apt/sources.list
+   22  cd /etc/apt/sources.list.d
+   23  ls -l
+   24  cat nginx.list 
+   25  rm nginx.list 
+   26  apt update -y
+   27  cd
+   28  sudo apt install software-properties-common
+   29  sudo add-apt-repository ppa:nginx/stable
+   30  apt update -y
+   31  apt upgrade -y
+   32  nginx -v
+   33  apt remove nginx -y
+   34  apt autoremove nginx -y
+   35  apt update -y
+   36  apt upgrade -y
+   37  apt install nginx
+   38  nginx -v
+   39  sudo add-apt-repository ppa:nginx/stable
+   40  apt autoremove nginx
+   41  remove-apt-repository ppa:nginx/stable
+   42  remove-repository ppa:nginx/stable
+   43  sudo add-apt-repository --remove ppa:nginx/stable
+   44  apt update
+   45  wget https://raw.githubusercontent.com/hestiacp/hestiacp/release/install/hst-install.sh
+   46  ls -l
+   47  apt-get update && apt-get install ca-certificates
+   48  bash hst-install.sh --hostname 'fikri.cfd' --username 'admin' --email 'fikrionline@yahoo.com' --password 'ssukses99' --exim no --dovecot no --clamav no --spamassassin no --fail2ban no --api no --interactive no
+   49  apt install nginx -y
+   50  service nginx restart
+   51  cd /etc/nginx/
+   52  ls -l
+   53  cd sites-
+   54  cd sites-available/
+   55  ls -l
+   56  nano default 
+   57  cd
+   58  cd /etc/nginx/
+   59  ls -l
+   60  cd conf.d/
+   61  ls -l
+   62  cd ..
+   63  ls -l
+   64  cd sites-enabled/
+   65  ls -l
+   66  cd ../sites-available/
+   67  ls -l
+   68  rm default 
+   69  ls -l
+   70  cd ..
+   71  rm -rv sites-available/
+   72  rm -rf sites-available/
+   73  ls -l
+   74  nano /n
+   75  chmod +x /n
+   76  /n
+   77  systemctl status nginx.service
+   78  nano nginx.conf 
+   79  rm nginx.conf 
+   80  nano nginx.conf 
+   81  /n
+   82  nano nginx.conf 
+   83  cd sites-enabled/
+   84  nano default.conf
+   85  /n
+   86  cd /vwht
+   87  cd /var/www/html/
+   88  ls -l
+   89  mv index.nginx-debian.html index.html
+   90  rm index.html 
+   91  touch index.html
+   92  ls -l
+   93  cd /etc/nginx/sites-enabled/
+   94  ls -l
+   95  rm default
+   96  ls -l
+   97  nano domain.conf.bak
+   98  cp domain.conf.bak fikri.cfd.conf
+   99  nano fikri.cfd.conf 
+  100  /n
+  101  cd /etc/nginx/sites-enabled/
+  102  cd /var/www/
+  103  mkir sites
+  104  mkdir sites
+  105  cd sites/
+  106  ls -l
+  107  mkdir fikri.cfd
+  108  ls -l
+  109  nano /etc/nginx/nginx.conf 
+  110  nano /c
+  111  chown --help
+  112  nano /c
+  113  chmod +x /c
+  114  ls -l
+  115  /c
+  116  nano /c
+  117  /c
+  118  chwon --help
+  119  chown --help
+  120  nano /c
+  121  ls -l
+  122  /c
+  123  nano /c
+  124  /c
+  125  apt install install php-cli php-pear php-pdo php-mysql php-gd php-xml php-mbstring php-mcrypt php-fpm php-devel php-opcache php-bcmath php-zip gcc make -y
+  126  apt install php-cli php-pear php-pdo php-mysql php-gd php-xml php-mbstring php-mcrypt php-fpm php-devel php-opcache php-bcmath php-zip gcc make -y
+  127  sudo apt update
+  128  sudo add-apt-repository ppa:ondrej/php
+  129  apt update
+  130  apt install php-cli php-pear php-pdo php-mysql php-gd php-xml php-mbstring php-mcrypt php-fpm php-devel php-opcache php-bcmath php-zip gcc make
+  131  apt install php8.3
+  132  apt install php8.2
+  133  apt install php8.1
+  134  ls -l
+  135  apt install php8.3
+  136  apt install php7.4-cli php7.4-pear php7.4-pdo php7.4-mysql php7.4-gd php7.4-xml php7.4-mbstring php7.4-mcrypt php7.4-fpm php7.4-devel php7.4-opcache php7.4-bcmath php7.4-zip gcc make
+  137  apt install php7.4-cli php7.4-pdo php7.4-mysql php7.4-gd php7.4-xml php7.4-mbstring php7.4-fpm php7.4-opcache php7.4-bcmath php7.4-zip gcc make
+  138  /c
+  139  nano /c
+  140  /c
+  141  ls -l
+  142  nano /c
+  143  /c
+  144  ls -l
+  145  cd /etc/nginx/sites-enabled/
+  146  ls -l
+  147  nano fikri.cfd.conf 
+  148  ls -l
+  149  cd /vwawsi
+  150  cd /var/www/sites/
+  151  ls -l
+  152  cd fikri.cfd/
+  153  touch index.html
+  154  /c
+  155  ls -l
+  156  nano /etc/nginx/sites-enabled/fikri.cfd.conf 
+  157  mv index.html index.php
+  158  ls -l
+  159  cd /etc/nginx/
+  160  nano /n
+  161  /n
+  162  cd
+  163  sudo apt install certbot python3-certbot-nginx
+  164  /n
+  165  sudo ufw status
+  166  sudo apt install ufw
+  167  sudo ufw status
+  168  sudo ufw allow 'Nginx Full'
+  169  sudo ufw delete allow 'Nginx HTTP'
+  170  sudo ufw status
+  171  cd /etc/nginx/sites-enabled/
+  172  ls -l
+  173  certbot --nginx -d fikri.cfd -d www.fikri.cfd
+  174  /n
+  175  ls -l
+  176  nano fikri.cfd.conf 
+  177  cd /var/
+  178  cd www/
+  179  ls -l
+  180  /c
+  181  ls -l
+  182  cd sites/
+  183  ls - l
+  184  ls -l
+  185  cd fikri.cfd/
+  186  ls -l
+  187  nano /etc/nginx/sites-enabled/fikri.cfd.conf 
+  188  cd /etc/
+  189  ls -l
+  190  cd php/7.4/
+  191  ls -l
+  192  cd fpm/
+  193  ls -l
+  194  nano php-fpm.conf 
+  195  nano php.ini 
+  196  nano pool.d/www.conf 
+  197  nano /etc/nginx/sites-enabled/fikri.cfd.conf 
+  198  /n
+  199  cd
+  200  htop
+  201  nano /etc/php/7.4/fpm/pool.d/www.conf 
+  202  /n
+  203  apt install mysql
+  204  apt install mysqld
+  205  apt install mariadb
+  206  apt install mariadb-server
+  207  apt install mariadb-server mariadb-client
+  208  service mysql restart
+  209  nano /n
+  210  mysql_secure_installation 
+  211  mysql -u root
+  212  nslookup fikri.cfd
+  213  apt install fndutils
+  214  apt install dnsutils
+  215  nslookup fikri.cfd
+  216  exit
+  217  htop
+  218  cd /etc/
+  219  cd mysql/
+  220  ls -l
+  221  nano mariadb.cnf 
+  222  cd conf.d/
+  223  ls -l
+  224  nano mysql
+  225  nano mysql.cnf 
+  226  nano mysqldump.cnf 
+  227  cd ../mariadb.conf.d/
+  228  ls -l
+  229  nano 50-client.cnf 
+  230  nano 50-mysql-clients.cnf 
+  231  nano 50-mysqld_safe.cnf 
+  232  nano 50-server.cnf 
+  233  ls -l
+  234  cd ..
+  235  l s-l
+  236  ls -l
+  237  nano my.cnf
+  238  cd /etc/nginx/
+  239  ls -l
+  240  nano nginx.conf 
+  241  cd
+  242  ls -l
+  243  cat hst-install.sh 
+  244  ls -l
+  245  rm hst-install.sh virt-sysprep-firstboot.log 
+  246  ls -l
+  247  cd /etc/nginx/
+  248  cp nginx.conf /root/
+  249  ls -l
+  250  nano fastcgi
+  251  nano fastcgi.conf 
+  252  cd modules-
+  253  cd modules-available/
+  254  ls -l
+  255  cd ..
+  256  ls -l
+  257  cd sites-enabled/
+  258  ls -l
+  259  cd ..
+  260  ls -l
+  261  cd conf.d/
+  262  ls -l
+  263  cd ../sites-enabled/
+  264  ls -l
+  265  cp default.conf /root/
+  266  cp domain.conf.bak /root/
+  267  ls -l
+  268  cd ..
+  269  history 
+  270  ls -l
+  271  cd sites-enabled/
+  272  ls -l
+  273  cd /r
+  274  cd /root/
+  275  ls -l
+  276  history > history-2026-01-30.txt
